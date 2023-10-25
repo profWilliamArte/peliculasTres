@@ -97,8 +97,8 @@ const MainPeliculas = ({id}) => {
 
   return (
     <header style={{ backgroundImage: `url(https://image.tmdb.org/t/p/original${imgFondo})` }}>
-        <div className="container">
-          <h1 className="titulo">{opciones[id].titulo}</h1>
+        <div className="container py-5">
+          <h1 className="titulo mt-3">{opciones[id].titulo}</h1>
           <Paginar
               currentPage={currentPage}
               totalPages={totalPages}
